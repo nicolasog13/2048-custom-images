@@ -9,24 +9,6 @@
         font-family: "Inter", Verdana, Tahoma, sans-serif
     }
 
-    h2 {
-        border-bottom: 1px solid gray;
-    }
-
-  .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .column {
-    flex: 33.33%;
-    padding: 5px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
   img {
     width: 256px;
     height: 256px;
@@ -34,17 +16,23 @@
     border: 5px solid rgba(21,162,164,0.7);
     border-radius: 20px;
   }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
 </style>
 </head>
 <body>
 <h2>blocks 1-99</h2>
-<div class="container">
-    <div class="column"><img src="cdn/2.png"><h2>2</h2></div><!--block 1-->
-    <div class="column"><img src="cdn/4.png"><h2>4</h2></div><!--block 2-->
-    <div class="column"><img src="cdn/8.png"><h2>8</h2></div><!--block 3-->
-    <div class="column"><img src="cdn/16.png"><h2>16</h2></div><!--block 4--><br>
-    <div class="column"><img src="cdn/32.png"><h2>32</h2></div><!--block 5-->
-    <div class="column"><img src="cdn/64.png"><h2>64</h2></div><!--block 6-->
-</div>
+  <div class="row">
+    <div class="column"><img src="cdn/2.png"></div><!--block 1-->
+    <div class="column"><img src="cdn/4.png"></div><!--block 2-->
+    <div class="column"><img src="cdn/8.png"></div><!--block 3-->
+    <div class="column"><img src="cdn/16.png"></div><!--block 4-->
+    <div class="column"><img src="cdn/32.png"></div><!--block 5-->
+    <div class="column"><img src="cdn/64.png"></div><!--block 6-->
+  </div>
 </body>
 </html>
