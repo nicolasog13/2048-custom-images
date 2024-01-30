@@ -4,9 +4,7 @@
 
 ## to use assets:
 
-- download the cdn/ folder
-- clone the repo (or download as zip)
-- go to the github pages (link on the right) and right click an image -> save image as...
+use image links in the code, as all cannot be localhosted
 
 ## other info:
 
